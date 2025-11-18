@@ -1,0 +1,129 @@
+.page-home {
+  flex: 1;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;   
+  text-align: center;
+  min-height: 100vh;          
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  align-items: center;        
+  overflow-y: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.page-home h1{
+  font-size: 75px;
+  color: red;
+  background-color: #cf6e6e;
+  width: 100%;
+  border-radius:100px;
+}
+.btn-page-home{
+  background-color: #ecb3b3;
+  padding: 10px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -103px;
+}
+.btn-page-home h3{
+  text-align: center;
+  margin-top: 3px;
+  font-size: 30px;
+}
+.btn-page-home p{
+  position: relative;
+  font-size: 20px;
+  
+}
+
+@media (min-width:500px) and (max-width:640px) {
+  .btn-page-home{
+    width:340px;
+    margin-top:-88px;
+  }
+  .page-home h1{
+    margin-top:150px;
+    font-size: 50px;
+    padding:9px 20px;
+  }
+  .btn-page-home h3{
+    font-size:25px;
+  }
+  .btn-page-home p{
+    font-size:21px;  
+  }
+}
+@media (min-width:641px) and (max-width:768px) {
+  .btn-page-home{
+    width:430px;
+    margin-top:-100px;
+  }
+  .page-home h1{
+    margin-top:200px;
+    font-size:70px;
+  }
+  .btn-page-home h3{
+    font-size:30px;
+  }
+  .btn-page-home p{
+    font-size:30px;  
+  }
+}
+@media (min-width: 1440px) {
+  .btn-page-home{
+    margin-top:-113px;
+  }
+  .page-home h1{
+    margin-top:80px;
+    font-size: 90px;
+  }
+  .page-home h3{
+    font-size: 45px;
+  }
+  .page-home p{
+    font-size: 35px;
+  }
+}
+
+@media (min-width:4600px) and (max-width:5600px) {
+  .page-home{
+    margin-top:200px;
+    margin-bottom: 100px;
+  }
+  .page-home h1{
+    margin-top:10px;
+    font-size:250px;
+  }
+  .page-home h3{
+    font-size:140px;
+  }
+  .page-home p{
+    font-size:110px;
+  }
+  .btn-page-home{
+    margin-top:-230px;
+  }
+}
+
+@media (min-width:5601px) and (max-width:7000px){
+  .page-home{
+    margin-top:200px;
+    margin-bottom: 100px;
+  }
+  .page-home h1{
+    margin-top:10px;
+    font-size:250px;
+  }
+  .page-home h3{
+    font-size:140px;
+  }
+  .page-home p{
+    font-size:120px;
+  }
+  .btn-page-home{
+    margin-top:-230px;
+    width: 6400px;
+  }
+}

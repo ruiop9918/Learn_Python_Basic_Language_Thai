@@ -1,0 +1,167 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  right: 0;
+  padding: 2px 60px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  z-index: 1000;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------ กลุ่มลิงก์ ------------------ */
+.nav-links {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 5;
+}
+
+/* ------------------ ปุ่มลิงก์ ------------------ */
+.nav-link {
+  color: #1976d2;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Prompt", sans-serif;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d47a1;
+  background-color: rgba(25, 118, 210, 0.1);
+}
+
+.nav-link.active {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  flex: 2;
+}
+
+@media (max-width: 480px) {
+  nav{
+    font-size: 8px;
+  }
+  .logo{
+    font-size: 20px;
+  }
+}
+
+/* ------------------ Responsive ------------------ */
+/* มือถือแนวตั้ง (สูงสุด 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    height: auto;
+  }
+
+  .nav-logo {
+    width: 100%;
+    justify-content:space-between;
+    
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav-link:last-child {
+    border-bottom: none;
+  }
+}
+
+/* แท็บเล็ตแนวนอน (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1439px) {
+  nav {
+    padding: 10px 40px;
+  }
+  .nav-links {
+    gap: 25px;
+  }
+
+  .nav-link {
+    padding: 6px 10px;
+    font-size: 0.95rem;
+  }
+}
+
+/*  หน้าจอใหญ่ (มากกว่า 1440px) */
+@media (min-width: 1440px) {
+  nav {
+    padding: 20px 120px;
+  }
+
+  .nav-links {
+    gap: 50px;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:4600px) and (max-width:5600px) {
+   nav {
+    padding: 80px 200px;
+  }
+
+  .nav-links {
+    gap:300px;
+  }
+  .logo {
+    font-size: 120px;
+  }
+  .nav-link {
+    padding: 6px 10px;
+    font-size:5rem;
+  }
+
+}
+
+@media (min-width:5601px) and (max-width:7000px) {
+   nav {
+    padding: 100px 200px;
+  }
+
+  .nav-links {
+    gap:300px;
+  }
+  .logo {
+    font-size: 150px;
+  }
+  .nav-link {
+    padding: 6px 10px;
+    font-size:5rem;
+  }
+
+}
