@@ -30,7 +30,7 @@
 
 > ###  เครื่องมือและเทคโนโลยีที่ใช้สร้าง
 - **ภาษาโปรแกรม:** ```พื้นฐาน JavaScript,HTML,CSS ``` 
-- **เฟรมเวิร์ก:** ```React.js```
+- **เฟรมเวิร์ก:** ```React```
 - **เครื่องมือพัฒนา:** ```Visual Studio Code, GitHub, Node.js```
 - **รัน hosting:** ```https://app.netlify.com```
 
