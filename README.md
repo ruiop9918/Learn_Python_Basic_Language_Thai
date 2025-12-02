@@ -48,10 +48,9 @@
 4. สามารถเขียนโปรเเกรมภาษา python เบื้องต้นได้
 ---
 > ### เเหล่งอ้างอิง
-- ChatGPT
-- **Link สอน python บน youtube :** https://www.youtube.com/watch?v=HEqxgFyK77I&list=PLltVQYLz1BMBe14u-5pxxEsbJSbdxd1Vs 
+- ChatGPT 
 - www.youtube.com/@KongRuksiamOfficial  เเนะนำช่องนี้ครับเพราะว่ามีภาษาอื่นให้เรียนหลากหลายเเละอธิบายเข้าใจง่าย 
-- **เว็บไซต์ :** https://www.w3schools.com/python/default.asp เว็บนี้รวมเกือบทุกภาษาไว้ในนั้นเลยก็ว่าได้ **สืบค้นเมื่อช่วง ปลายเดือนตุลาคม- กลางเดือนพฤศจิกายน พ.ศ. 2568**
+- https://www.w3schools.com/python/default.asp เว็บนี้รวมเกือบทุกภาษาไว้ในนั้นเลยก็ว่าได้ **สืบค้นเมื่อช่วง ปลายเดือนตุลาคม- กลางเดือนพฤศจิกายน พ.ศ. 2568**
 
 ---
 
